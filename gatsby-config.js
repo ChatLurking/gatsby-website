@@ -2,7 +2,7 @@ module.exports = {
   siteMetadata: {
     title: `Resume`,
   },
-  pathPrefix: `/`,
+  pathPrefix: `/website`,
   plugins: [
     `gatsby-plugin-react-helmet`, 
     `gatsby-plugin-styled-components`,
