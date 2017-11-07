@@ -1,0 +1,80 @@
+{
+    "basicInfo": {
+        "name": "Anne Glines",
+        "github": "github.com/ChatLurking",
+        "email": "anneglines@gmail.com",
+        "website": "hiimanne.com",
+        "languages": {
+            "web": ["React/Redux", "CSS/SASS", "HTML", "Javascript", "TypeScript"],
+            "backend": ["Node.js", "C#"],
+            "other": ["Java", "Android", "AWS", "C++", "NoSQL/SQL"]
+        }
+    },
+    "workExperience": [
+        {
+            "name": "RiskLens",
+            "title": "Fullstack Software Engineer (Contract)",
+            "startDate": "07/2017",
+            "endDate": "Present",
+            "description": "Migrating main application from Knockout to React/Redux.",
+            "languages": ["React/Redux", "TypeScript", ".Net Core"],
+            "highlights": [
+                "Assited in design/implementation of the univerisity/self-learning platform.",
+                "Implemented new features on the main platform.",
+                "Updating main application to React/Redux."
+            ]
+        },
+        {
+            "name": "Smoke & Mirrors Technologies",
+            "title": "Fullstack Software Engineer",
+            "startDate": "11/2016",
+            "endDate": "06/2017",
+            "description": "Interactive stream overlays.",
+            "languages": ["React/Redux/React-Native", "Node.js", "Android/Java", "Swift/Objective-C", "C++"],
+            "highlights": [
+                "Sprint planning and software architecture design.",
+                "Interactive live-stream overlays that utilize various ways of support provided through Twitch.tv.",
+                "A prototype iOS/Android live streaming application."
+            ]
+        },
+        {
+            "name": "Bonner County School District",
+            "title": "Contractor",
+            "startDate": "July 2016",
+            "endDate": "September 2017",
+            "description": "Assisted the district in updating all computers.",
+            "languages": [],
+            "highlights": [
+                "Organized and lead a team in cleaning and updating of computers.",
+                "Added/Deleted users in the Active Directory.",
+                "Triaged and fixed viruses."
+            ]
+        }
+    ],
+    "volunteerExperience": [
+        {
+            "name": "Washington State University",
+            "title": "",
+            "startDate": "07/2016",
+            "endDate": "11/2016",
+            "description": "Teaching STEM in a 4H after school program.",
+            "highlights": [
+               "Organizing lesson plans that followed WSU and 4H STEM requirements.",
+               "Organizing the county fair student projects.",
+               "Making up outdoor games."
+            ]
+        },
+        {
+            "name": "Quest 4 the Cause",
+            "title": "",
+            "startDate": "12/2014",
+            "endDate": "12/2016",
+            "description": "An annual live-stream charity event, that was held every December (until this year).",
+            "highlights": [
+               "Stream chat moderation and updating of chat bot commands.",
+               "Managing/updating stream dashboard and website.",
+               "Assisting with swapping streamers and short notice changes."
+            ]
+        }
+    ]
+}
