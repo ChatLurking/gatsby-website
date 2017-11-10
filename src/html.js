@@ -1,6 +1,7 @@
-import React from "react"
+import React from "react";
+import favicon from './images/icon.png';
 
-let stylesStr
+let stylesStr;
 if (process.env.NODE_ENV === `production`) {
   try {
     stylesStr = require(`!raw-loader!../public/styles.css`)
@@ -29,6 +30,8 @@ module.exports = class HTML extends React.Component {
             name="viewport"
             content="width=device-width, initial-scale=1, shrink-to-fit=no"
           />
+          <link rel='icon' type='image/png' sizes='32x32' href={favicon} />
+          <link rel='icon' type='image/png' sizes='16x16' href={favicon} />
           {this.props.headComponents}
           {css}
         </head>
