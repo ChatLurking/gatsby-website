@@ -3,8 +3,6 @@ import PropTypes from 'prop-types';
 import styled from 'styled-components';
 import Heading from './heading';
 
-import 'font-awesome/css/font-awesome.css';
-
 const About = ({ email, github }) => (
   <Wrapper>
     <Heading title="About" />

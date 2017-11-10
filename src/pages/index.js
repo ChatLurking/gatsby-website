@@ -6,6 +6,9 @@ import Languages from '../components/languages';
 import Work from '../components/work';
 import Volunteer from '../components/volunteer';
 
+import typography from '../utils/typography';
+import 'font-awesome/css/font-awesome.css';
+
 const Index = ({ data }) => {
   const basicInfo = getData('basicInfo', data);
   const workExperience = getData('workExperience', data);
