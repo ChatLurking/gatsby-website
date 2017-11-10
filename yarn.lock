@@ -7521,18 +7521,6 @@ type-of@^2.0.1:
   version "2.0.1"
   resolved "https://registry.yarnpkg.com/type-of/-/type-of-2.0.1.tgz#e72a1741896568e9f628378d816d6912f7f23972"
 
-typeface-josefin-sans@^0.0.43:
-  version "0.0.43"
-  resolved "https://registry.yarnpkg.com/typeface-josefin-sans/-/typeface-josefin-sans-0.0.43.tgz#c34c015e41992c3d334715bea792cd6ba7595084"
-
-typeface-lato@^0.0.43:
-  version "0.0.43"
-  resolved "https://registry.yarnpkg.com/typeface-lato/-/typeface-lato-0.0.43.tgz#4eb1eff18e9f2d931b3aa7f2ea4ff4fb1949acc8"
-
-typefaces@^0.0.1:
-  version "0.0.1"
-  resolved "https://registry.yarnpkg.com/typefaces/-/typefaces-0.0.1.tgz#7754a10fea553ca8ceb9611d3939845edf3a7028"
-
 typography-normalize@^0.14.0:
   version "0.14.0"
   resolved "https://registry.yarnpkg.com/typography-normalize/-/typography-normalize-0.14.0.tgz#1d77c1fe2aaf4a51b3673c4c85c85a65a2d4b573"

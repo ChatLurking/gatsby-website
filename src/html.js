@@ -1,25 +1,25 @@
-import React from "react";
+import React from 'react';
 import favicon from './images/icon.png';
 
 let stylesStr;
 if (process.env.NODE_ENV === `production`) {
   try {
-    stylesStr = require(`!raw-loader!../public/styles.css`)
+    stylesStr = require(`!raw-loader!../public/styles.css`);
   } catch (e) {
-    console.log(e)
+    console.log(e);
   }
 }
 
 module.exports = class HTML extends React.Component {
   render() {
-    let css
+    let css;
     if (process.env.NODE_ENV === `production`) {
       css = (
         <style
           id="gatsby-inlined-css"
           dangerouslySetInnerHTML={{ __html: stylesStr }}
         />
-      )
+      );
     }
     return (
       <html {...this.props.htmlAttributes}>
@@ -30,8 +30,16 @@ module.exports = class HTML extends React.Component {
             name="viewport"
             content="width=device-width, initial-scale=1, shrink-to-fit=no"
           />
-          <link rel='icon' type='image/png' sizes='32x32' href={favicon} />
-          <link rel='icon' type='image/png' sizes='16x16' href={favicon} />
+          <link
+            href="https://fonts.googleapis.com/css?family=Lato"
+            rel="stylesheet"
+          />
+          <link
+            href="https://fonts.googleapis.com/css?family=Josefin+Sans"
+            rel="stylesheet"
+          />
+          <link rel="icon" type="image/png" sizes="32x32" href={favicon} />
+          <link rel="icon" type="image/png" sizes="16x16" href={favicon} />
           {this.props.headComponents}
           {css}
         </head>
@@ -45,6 +53,6 @@ module.exports = class HTML extends React.Component {
           {this.props.postBodyComponents}
         </body>
       </html>
-    )
+    );
   }
-}
+};

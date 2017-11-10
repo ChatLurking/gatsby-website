@@ -8,7 +8,7 @@ const Work = ({ experience }) => {
     <div>
       <Heading title="Experience" />
       {experience.map((item, index) => (
-        <div key={index}>
+        <Wrapper key={index}>
           <EmployerDateWrapper>
             <h4>{item.name.toUpperCase()}</h4>
             <p>
@@ -26,7 +26,7 @@ const Work = ({ experience }) => {
               <li key={i}>{highlight}</li>
             ))}
           </ul>
-        </div>
+        </Wrapper>
       ))}
     </div>
   );
@@ -37,6 +37,8 @@ Work.propTypes = {
 };
 
 export default Work;
+
+const Wrapper = styled.div``;
 
 export const EmployerDateWrapper = styled.div`
   margin-top: 1rem;

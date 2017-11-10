@@ -11,8 +11,6 @@ const About = ({ email, github }) => (
         <i className="fa fa-envelope-o" aria-hidden="true" />
         <p>{email.toUpperCase()}</p>
       </a>
-    </AboutItems>
-    <AboutItems>
       <a target="__blank" href="https://www.github.com/chatlurking">
         <i className="fa fa-github" aria-hidden="true" />
         <p>{github.toUpperCase()}</p>
@@ -29,13 +27,12 @@ About.propTypes = {
 const Wrapper = styled.div``;
 
 const AboutItems = styled.div`
-  margin: 1rem 0;
-
   a {
     display: flex;
     align-items: center;
     text-decoration: none;
     color: #000;
+    margin: 1rem 0;
 
     &:hover {
       color: #396795;

@@ -11,9 +11,6 @@
     "gatsby-plugin-typography": "^1.7.10",
     "gatsby-source-filesystem": "^1.5.5",
     "gatsby-transformer-json": "^1.0.11",
-    "typeface-josefin-sans": "^0.0.43",
-    "typeface-lato": "^0.0.43",
-    "typefaces": "^0.0.1",
     "typography": "^0.16.6"
   },
   "keywords": [
